@@ -8,4 +8,9 @@ variable "name" {
 variable "ssh" {
   description = "Repo ssh key"
   default = "test_ssh"
+} 
+
+variable "multiline" {
+  description = "Multiline string"
+  default = "Multiline value"
 }
