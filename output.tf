@@ -2,6 +2,6 @@ output "template_file" {
     value = data.template_file.test.rendered
 }
 
-output "template_file" {
+output "template_file2" {
     value = data.template_file.test2.rendered
 }
