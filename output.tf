@@ -1,7 +1,7 @@
-output "template_file3" {
-    value = data.template_file.test.rendered
+output "heredoc" {
+    value = data.template_file.heredoc.rendered
 }
 
-output "template_file4" {
-    value = data.template_file.test2.rendered
+output "plainmultiline" {
+    value = data.template_file.plainmultiline.rendered
 }
