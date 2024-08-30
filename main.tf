@@ -1,13 +1,8 @@
 # Create an arbitrary local resource
-data "template_file" "test" {
-  template = "${var.name}"
+data "template_file" "heredoc" {
+  template = "${var.heredoc}"
 }
 
-data "template_file" "test2" {
-  template = "${var.ssh}"
+data "template_file" "plainmultiline" {
+  template = "${var.plainmultiline}"
 }
-
-data "template_file" "test23" {
-  template = "${var.multiline}"
-}
-
