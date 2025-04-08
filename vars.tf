@@ -1,13 +1,7 @@
 # Configure these variables
 
-variable "heredoc" {
-  description = "heredoc string."
+variable "name" {
+  description = "hello string."
   type = string
-  default = ""
+  default = "WORLD !!!!"
 }
-
-variable "plainmultiline" {
-  description = "Plain Multiline string"
-  type = string
-  default = ""
-} 
